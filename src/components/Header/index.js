@@ -5,9 +5,9 @@ import './index.css'
 const Header = () => {
   return (
     <header>
-        <nav className="navbar-section navbar-fixed-top" style={{ borderWidth: '2px', borderRadius: '35px' }}>
+        <nav className="navbar-section " style={{ borderWidth: '2px', borderRadius: '35px' }}>
           <div className="nav-left">
-            <img src="logo.png" alt="logo" />
+            <img src="/assets/images/logo.png" alt="logo" />
           </div>
           <div className="nav-mid">
             <ul>

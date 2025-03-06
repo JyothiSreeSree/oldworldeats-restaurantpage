@@ -40,39 +40,6 @@ const Drinks = () => {
 
   return (
     <div>
-      {/* Header Section */}
-      <header>
-        <nav className="navbar-section navbar-fixed-top" style={{ borderWidth: '2px', borderRadius: '35px' }}>
-          <div className="nav-left">
-            <img src="logo.png" alt="logo" />
-          </div>
-          <div className="nav-mid">
-            <ul>
-              <li className="active"><a href="index.html">Home</a></li>
-              <li>
-                <a href="#second-section">
-                  <div className="dropdown">
-                    Menu
-                    <div id="myDropdown" className="dropdown-content">
-                      <a href="breakfast&brunch.html">Breakfast</a>
-                      <a href="maincourse.html">MainCourse</a>
-                      <a href="deserts.html">Deserts</a>
-                      <a href="drinks.html">Drinks</a>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="cart.html">Cart</a></li>
-              <li><a href="about.html">About Us</a></li>
-            </ul>
-          </div>
-          <div className="nav-right">
-            <button><a href="chatbot.html">Chatbot</a></button>
-          </div>
-        </nav>
-      </header>
 
       {/* Drinks Section */}
       <div className="bb">

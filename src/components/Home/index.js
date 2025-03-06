@@ -1,49 +1,15 @@
-// src/components/Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 const Home = () => {
   return (
     <div>
-      {/* Header */}
-      <header>
-        <nav className="navbar-section navbar-fixed-top" style={{ borderWidth: '2px', borderRadius: '35px' }}>
-          <div className="nav-left">
-            <img src="logo.png" alt="logo" />
-          </div>
-          <div className="nav-mid">
-            <ul>
-              <li><Link to="/" className="active">Home</Link></li>
-              <li>
-                <div className="dropdown">
-                  <Link to="">Menu</Link>
-                  <div className="dropdown-content">
-                    <Link to="/breakfast">Breakfast</Link>
-                    <Link to="/maincourse">MainCourse</Link>
-                    <Link to="/deserts">Desserts</Link>
-                    <Link to="/drinks">Drinks</Link>
-                  </div>
-                </div>
-              </li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-              <li><Link to="/cart">Cart</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-            </ul>
-          </div>
-          <div className="nav-right">
-            <button><Link to="/chatbot">Chatbot</Link></button>
-          </div>
-        </nav>
-      </header>
-
       {/* Carousel */}
       <Carousel>
         <Carousel.Item>
-          <div className="slide" style={{ backgroundImage: 'url(traditional.jpg)' }}></div>
+          <div className="slide" style={{ backgroundImage: 'url(assets/images/traditional.jpg)' }}></div>
           <Carousel.Caption>
             <h2>Taste the Traditional</h2>
             <div className="buttons">
@@ -61,7 +27,7 @@ const Home = () => {
         <div className="section-top">
           <div className="container1">
             <div className="box">
-              <img src="break.png" alt="Breakfast" />
+              <img src="assets/images/break.png" alt="Breakfast" />
             </div>
             <div className="text1">
               <Link to="/breakfast">
@@ -79,7 +45,7 @@ const Home = () => {
         <h2>Our Services</h2>
         <div className="service-top">
           <div className="box1">
-            <img src="chef.png" alt="Master Chefs" />
+            <img src="assets/images/chef.png" alt="Master Chefs" />
             <h3>Master Chefs</h3>
           </div>
           {/* Add more services here */}
@@ -91,10 +57,10 @@ const Home = () => {
         <h3>Our Customer <span id="review">Review</span></h3>
         <div className="third-top">
           <div className="box2">
-            <img src="Bharathwaj.jpg" alt="Bharathwaj" />
+            <img src="assets/images/Bharathwaj.jpg" alt="Bharathwaj" />
             <div className="images">
               {[...Array(5)].map((_, i) => (
-                <img key={i} src="star.png" alt="star" />
+                <img key={i} src="assets/images/star.png" alt="star" />
               ))}
             </div>
             <h5>Food is very Delicious...ambience is great and the staff is very friendly.</h5>

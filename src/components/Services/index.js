@@ -26,37 +26,6 @@ const About = () => {
 
   return (
     <div>
-      {/* Navigation Bar */}
-      <nav className="navbar-section navbar-fixed-top" style={{ borderWidth: '2px', borderRadius: '35px' }}>
-        <div className="nav-left">
-          <img src="assets/images/logo.png" alt="logo" />
-        </div>
-        <div className="nav-mid">
-          <ul>
-            <li className="active"><a href="/">Home</a></li>
-            <li>
-              <div className="dropdown">
-                <a href="#second-section">Menu</a>
-                <div className="dropdown-content">
-                  <a href="/breakfast">Breakfast</a>
-                  <a href="/maincourse">MainCourse</a>
-                  <a href="/deserts">Deserts</a>
-                  <a href="/drinks">Drinks</a>
-                </div>
-              </div>
-            </li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/cart">Cart</a></li>
-            <li><a href="/about">About Us</a></li>
-          </ul>
-        </div>
-        <div className="nav-right">
-          <button><a href="/chatbot">Chatbot</a></button>
-        </div>
-      </nav>
-
-      {/* About Section */}
       <div className="about-section" id="about-section">
         <div className="about-top">
           <div className="box1">

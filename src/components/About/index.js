@@ -4,49 +4,6 @@ import "./index.css";
 const About = () => {
   return (
     <div>
-      {/* Navbar Section */}
-      <nav className="navbar-section navbar-fixed-top">
-        <div className="nav-left">
-          <img src="assets/images/logo.png" alt="Logo" />
-        </div>
-        <div className="nav-mid">
-          <ul>
-            <li className="active">
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <div className="dropdown">
-                <a href="#kk">Menu</a>
-                <div className="dropdown-content">
-                  <a href="breakfast&brunch.html">Breakfast</a>
-                  <a href="maincourse.html">MainCourse</a>
-                  <a href="deserts.html">Deserts</a>
-                  <a href="drinks.html">Drinks</a>
-                </div>
-              </div>
-            </li>
-            <li>
-              <a href="services.html">Services</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-            <li>
-              <a href="cart.html">Cart</a>
-            </li>
-            <li>
-              <a href="about.html">About Us</a>
-            </li>
-          </ul>
-        </div>
-        <div className="nav-right">
-          <button>
-            <a href="chatbot.html">Chatbot</a>
-          </button>
-        </div>
-      </nav>
-
-      {/* About Section */}
       <div className="third-section">
         <div className="third-left">
         <div className="text">

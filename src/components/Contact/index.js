@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./index.css"; 
+import "./index.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -25,35 +25,6 @@ const Contact = () => {
 
   return (
     <>
-      <nav className="navbar-section navbar-fixed-top" style={{ borderWidth: "2px", borderRadius: "35px" }}>
-        <div className="nav-left">
-          <img src="assets/images/logo.png" alt="Logo" />
-        </div>
-        <div className="nav-mid">
-          <ul>
-            <li className="active"><a href="index.html">Home</a></li>
-            <li>
-              <div className="dropdown">
-                <a href="#second-section">Menu</a>
-                <div className="dropdown-content">
-                  <a href="breakfast&brunch.html">Breakfast</a>
-                  <a href="maincourse.html">Main Course</a>
-                  <a href="deserts.html">Desserts</a>
-                  <a href="drinks.html">Drinks</a>
-                </div>
-              </div>
-            </li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="about.html">About Us</a></li>
-          </ul>
-        </div>
-        <div className="nav-right">
-          <button><a href="chatbot.html">Chatbot</a></button>
-        </div>
-      </nav>
-      
       <form className="ContactUs" onSubmit={validateForm}>
         <div className="contact-left">
           <h1 style={{ color: "rgba(246, 13, 13, 0.947)", textAlign: "center" }}>Contact Us</h1>
